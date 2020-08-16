@@ -20,7 +20,7 @@ public class DistanceAndDirectionCalculator {
 }
 ```
 He thought it'll be a good idea to convert this to Object Oriented Programming. So he wrote a new implementation in package `org.oop`, he got 2 classes - 
-- `org.oop.Graph`
+- `org.oop.Space`
 - `org.oop.Point`
 
 However, his trainer told him that what he did is not Object Oriented programming and asked Shivam to try again. 
