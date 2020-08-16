@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.oop.DistanceAndDirectionCalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2020-08-16T14:07:54" hostname="Maadeshs-MacBook-Pro.local" time="0.035">
+  <properties/>
+  <testcase name="twoPointsWithSameXAndYCoordinatesShouldHaveADistanceOfZero()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.025"/>
+  <testcase name="distanceBetweenOriginAndPointsOnUnitCircleShouldBeOne()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.0"/>
+  <testcase name="originAndPointOnPostiveXAxisShouldBeZeroRadiansAway()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.001"/>
+  <testcase name="originAndPointOnNegativeXAxisShouldBePiRadiansAway()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.001"/>
+  <testcase name="originAndPointOnYAxisShouldBeHalfPiRadiansAway()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.001"/>
+  <testcase name="distanceBetweenTwoOppositePointsOnUnitCircleShouldBeTwo()" classname="org.oop.DistanceAndDirectionCalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
