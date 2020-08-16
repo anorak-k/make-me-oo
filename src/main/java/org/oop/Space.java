@@ -3,6 +3,13 @@ package org.oop;
 import java.util.ArrayList;
 
 public class Space {
+
+    private static Space space = new Space();
+    private Space() {}
+    public static Space getInstance() {
+        return space;
+    }
+
     ArrayList<Point> points = new ArrayList<Point>();
 
     public double directionBetweenPoints(int fromIndex, int toIndex) {

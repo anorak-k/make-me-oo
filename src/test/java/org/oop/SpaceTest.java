@@ -8,7 +8,8 @@ import java.util.Arrays;
 
 public class SpaceTest {
 
-    Space space = new Space();
+    Space space = Space.getInstance();
+
     @Test
     void twoPointsWithSameXAndYCoordinatesShouldHaveADistanceOfZero() {
         Point origin = new Point(0, 0);
