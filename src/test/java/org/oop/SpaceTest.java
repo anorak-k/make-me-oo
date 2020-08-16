@@ -8,10 +8,10 @@ import java.util.Arrays;
 
 public class SpaceTest {
 
-    Space space = Space.getInstance();
 
     @Test
     void twoPointsWithSameXAndYCoordinatesShouldHaveADistanceOfZero() {
+        Space space = new Space();
         Point origin = new Point(0, 0);
         space.points.add(origin);
         Assertions.assertEquals(0, space.distanceBetweenPoints(0, 0));
@@ -19,6 +19,7 @@ public class SpaceTest {
 
     @Test
     void distanceBetweenOriginAndPointsOnUnitCircleShouldBeOne() {
+        Space space = new Space();
         Point origin = new Point(0, 0);
         Point point1 = new Point(1, 0);
         Point point2 = new Point(0, 1);
@@ -29,6 +30,7 @@ public class SpaceTest {
 
     @Test
     void distanceBetweenTwoOppositePointsOnUnitCircleShouldBeTwo() {
+        Space space = new Space();
         Point point1 = new Point(1, 0);
         Point point2 = new Point(-1, 0);
         space.points.addAll(Arrays.asList(point1, point2));
@@ -37,6 +39,7 @@ public class SpaceTest {
 
     @Test
     void originAndPointOnPostiveXAxisShouldBeZeroRadiansAway() {
+        Space space = new Space();
         Point origin = new Point(0, 0);
         Point point1 = new Point(1, 0);
         Point point2 = new Point(3, 0);
@@ -47,6 +50,7 @@ public class SpaceTest {
 
     @Test
     void originAndPointOnNegativeXAxisShouldBePiRadiansAway() {
+        Space space = new Space();
         Point origin = new Point(0, 0);
         Point point1 = new Point(-1, 0);
         Point point2 = new Point(-3, 0);
@@ -57,6 +61,7 @@ public class SpaceTest {
 
     @Test
     void originAndPointOnYAxisShouldBeHalfPiRadiansAway() {
+        Space space = new Space();
         Point origin = new Point(0, 0);
         Point point1 = new Point(0, 1);
         Point point2 = new Point(0, 3);
